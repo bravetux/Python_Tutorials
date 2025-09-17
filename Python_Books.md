@@ -1,5 +1,3 @@
-# Create the markdown content
-markdown_content = """
 ## 🐍 Python Books for Beginners
 
 - **Effective Python** by Brett Slatkin (2019)
@@ -25,9 +23,6 @@ markdown_content = """
 - **Raymond Hettinger** – Core developer and Python evangelist  
 - **David Beazley** – Author and educator  
 - **Jake VanderPlas (JVP)** – Expert in scientific computing and data science
-"""
 
-# Save the markdown content to a .md file
-with open("python_books_and_leaders.md", "w", encoding="utf-8") as md_file:
-    md_file.write(markdown_content)
+
 
